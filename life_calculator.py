@@ -1,0 +1,17 @@
+print("=== 欢迎来到生活费计算器 ===")
+name=input("请输入你的名字")
+food_money=input("请输入这个月的伙食费")
+textbooks_money=input("请输入这个月买教材花的钱")
+fruit_money=input("请输入这个月买水果花的钱")
+others_money=input("请输入这个月在其他生活用品等花的钱")
+life_money=input("请输入这个月的生活费总额")
+food_money_num=float(food_money)
+textbooks_money_num=float(textbooks_money)
+fruit_money_num=float(fruit_money)
+others_money_num=float(others_money)
+life_money_num=float(life_money)
+total_income=life_money_num
+total_output=food_money_num+textbooks_money_num+fruit_money_num+others_money_num
+print("你好,"+name+"!")
+print("你本月的总收入是：",total_income,"元")
+print("你本月的总支出是：",total_output,"元")      
